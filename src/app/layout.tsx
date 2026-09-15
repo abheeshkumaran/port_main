@@ -15,9 +15,9 @@ const sans = DM_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://example.com"),
-  title: { default: "Mara Vale | Model & Image Maker", template: "%s | Mara Vale" },
-  description: "Mara Vale is a fashion, editorial, and commercial model based in New York.",
-  openGraph: { title: "Mara Vale | Model & Image Maker", description: "Fashion, editorial, and commercial work.", type: "website" },
+  title: { default: "Lakshmi Nair | Model & Image Maker", template: "%s | Lakshmi Nair" },
+  description: "Lakshmi Nair is a fashion, editorial, and commercial model based in New York.",
+  openGraph: { title: "Lakshmi Nair | Model & Image Maker", description: "Fashion, editorial, and commercial work.", type: "website" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
